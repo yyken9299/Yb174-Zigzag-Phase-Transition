@@ -1,0 +1,12 @@
+os
+numpy
+pandas
+scikit-learn
+tkinter
+tqdm
+natsort
+opencv-python
+Pillow
+mss
+scipy
+tifffile
