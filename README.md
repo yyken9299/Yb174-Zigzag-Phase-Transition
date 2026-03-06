@@ -6,14 +6,24 @@ used in the Master's thesis on the zigzag phase transition of 174Yb+ ion chains.
 
 The repository includes:
 
-1. **Core algorithms** (`core_algorithms/`) – simplified, clean versions of ion detection and defect analysis algorithms suitable for reproducing thesis results.
-2. **Experimental scripts** (`experimental_scripts/`) – full scripts including GUI, batch processing, and file I/O used in the laboratory.
-3. **Example data** (`data_examples/`) – optional, small sample datasets for testing purposes.
+1. **Theory codes** (`theory/`) – theoretical calculations and simulations related to the zigzag phase transition and IKZM scaling.
+2. **Core algorithms** (`core_algorithms/`) – simplified, clean versions of ion detection and defect analysis algorithms suitable for reproducing thesis results.
+3. **Experimental scripts** (`experimental_scripts/`) – full scripts including GUI, batch processing, and file I/O used in the laboratory.
+4. **Example data** (`data_examples/`) – optional, small sample datasets for testing purposes.
 
 ## Repository Structure
+
+- `theory/` : Theoretical calculations and simulations of the zigzag phase transition.
 - `core_algorithms/` : Minimal dependency versions for academic presentation.
 - `experimental_scripts/` : Full scripts for experimental use.
 - `data_examples/` : Small sample datasets for testing.
+
+## Theory Codes
+
+| Script | Purpose |
+|------|------|
+| ikzm_scaling_curve.py | Calculate theoretical IKZM scaling curves for defect density versus quench rate |
+| phase_transition_simulation.py | Simulate the structural phase transition of trapped ion chains during radial confinement ramp |
 
 ## Experimental Scripts Overview
 
@@ -41,4 +51,5 @@ The repository includes:
 [MIT License](LICENSE)
 
 ## Thesis Version
+
 Release v1.0 corresponds to the version used in the Master's thesis.
